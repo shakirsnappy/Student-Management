@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lectures Information</title>
+    <link rel="stylesheet" href="AdminLectureInfo.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header">
+            <button class="back-button" onclick="goBack()">&#8592;</button>
+            <div class="school-logo">
+                <img src="school logo.jpg" alt="High School Logo" class="logo">
+                <h1>HIGH SCHOOL</h1>
+            </div>
+            <div class="admin-info">
+                <img src="User logo.png" alt="Admin Icon" class="admin-icon">
+                <span>ADMIN: Mohamed Shabry</span>
+                <button class="logout-button" onclick="logout()">LOGOUT &#10142;</button>
+            </div>
+        </div>
+
+        <!-- Lectures Information Section -->
+        <div class="lectures-section">
+            <h2>Lectures Information</h2>
+            <p>Lectures (10)</p>
+
+            <div class="lectures-list">
+                <div class="lecture-card">
+                    <img src="User logo.png" alt="User 1" class="user-img">
+                    <span>Tharuka Senanayake : [Commerce]</span>
+                </div>
+                <div class="lecture-card">
+                    <img src="User logo.png" alt="User 2" class="user-img">
+                    <span>Dinusha S. M : [English]</span>
+                </div>
+                <div class="lecture-card">
+                    <img src="User logo.png" alt="User 3" class="user-img">
+                    <span>F. Shamila : [Science]</span>
+                </div>
+                <div class="lecture-card">
+                    <img src="User logo.png" alt="User 4" class="user-img">
+                    <span>Shanika Karuna : [Literature]</span>
+                </div>
+                <div class="lecture-card">
+                    <img src="User logo.png" alt="User 5" class="user-img">
+                    <span>Iresha Dinuka : [EMC]</span>
+                </div>
+                <div class="lecture-card">
+                    <img src="User logo.png" alt="User 6" class="user-img">
+                    <span>Darshan : [ICT]</span>
+                </div>
+                <div class="lecture-card">
+                    <img src="User logo.png" alt="User 7" class="user-img">
+                    <span>Deshan : [Spanish]</span>
+                </div>
+                <div class="lecture-card">
+                    <img src="User logo.png" alt="User 8" class="user-img">
+                    <span>Narada Disanayaka : [Mathematics]</span>
+                </div>
+                <div class="lecture-card">
+                    <img src="User logo.png" alt="User 9" class="user-img">
+                    <span>Heminda : [History]</span>
+                </div>
+                <div class="lecture-card">
+                    <img src="User logo.png" alt="User 10" class="user-img">
+                    <span>Ujitha Subasingha : [Economics]</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Action Buttons and Search Bar -->
+        <div class="actions-section">
+            <div class="search-bar">
+                <input type="text" placeholder="Search" id="search">
+                <button class="search-btn">&#128269;</button>
+            </div>
+            <button class="export-button">EXPORT</button>
+            <button class="delete-button">DELETE</button>
+        </div>
+
+        <footer>
+            <p>&#169; COPYRIGHTS ALL RIGHTS RESERVED</p>
+        </footer>
+    </div>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+
+        function logout() {
+            window.location.href = 'login.html';
+        }
+    </script>
+</body>
+</html>

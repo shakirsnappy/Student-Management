@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable - Class 12</title>
+    <link rel="stylesheet" href="AdminStudentTimetable.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header">
+            <button class="back-button" onclick="goBack()">&#8592;</button>
+            <div class="school-logo">
+                <img src="school logo.jpg" alt="High School Logo" class="logo">
+                <h1>HIGH SCHOOL</h1>
+            </div>
+            <div class="admin-info">
+                <img src="User logo.png" alt="Admin Icon" class="admin-icon">
+                <span>ADMIN: Mohamed Shabry</span>
+                <button class="logout-button" onclick="logout()">LOGOUT &#10142;</button>
+            </div>
+        </div>
+
+        <!-- Timetable Section -->
+        <div class="timetable-section">
+            <h2>Timetable <span>(Class 12)</span></h2>
+            <table class="timetable">
+                <thead>
+                    <tr>
+                        <th>MONDAY</th>
+                        <th>TUESDAY</th>
+                        <th>WEDNESDAY</th>
+                        <th>THURSDAY</th>
+                        <th>FRIDAY</th>
+                        <th>SATURDAY</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>History</td>
+                        <td>Literature</td>
+                        <td>Mathematics</td>
+                        <td>Mathematics</td>
+                        <td>English</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Mathematics</td>
+                        <td>English</td>
+                        <td>English</td>
+                        <td>Literature</td>
+                        <td>Science</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="6">BREAK</td>
+                    </tr>
+                    <tr>
+                        <td>Literature</td>
+                        <td>English</td>
+                        <td>English Literature</td>
+                        <td>PE</td>
+                        <td>French</td>
+                        <td>French History</td>
+                    </tr>
+                    <tr>
+                        <td>Literature</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="6">LUNCH</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Latin</td>
+                        <td>Latin</td>
+                        <td></td>
+                        <td>Mathematics</td>
+                        <td>Spanish</td>
+                    </tr>
+                    <tr>
+                        <td>Physical Sciences</td>
+                        <td>Economics</td>
+                        <td></td>
+                        <td>English Literature</td>
+                        <td>ICT</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Physical Sciences</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>Science</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Mathematics</td>
+                        <td>Spanish</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Commerce</td>
+                        <td>Commerce</td>
+                        <td></td>
+                        <td></td>
+                        <td>EMC</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="action-buttons">
+            <button class="export-button">EXPORT</button>
+            <button class="delete-button">DELETE</button>
+        </div>
+
+        <footer>
+            <p>&#169; COPYRIGHTS ALL RIGHTS RESERVED</p>
+        </footer>
+    </div>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+
+        function logout() {
+            window.location.href = 'login.html';
+        }
+    </script>
+</body>
+</html>

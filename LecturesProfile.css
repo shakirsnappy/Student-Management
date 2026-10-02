@@ -1,0 +1,141 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom, #ffffff, #b3e0ff);
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f0f8ff;
+    border-bottom: 2px solid #cccccc;
+}
+
+.back-button {
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+    padding: 5px 15px;
+}
+
+.school-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.school-logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.lecturer-info {
+    display: flex;
+    align-items: center;
+}
+
+.lecturer-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logout-button {
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+    background-color: #ddeeff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+/* Title Section */
+.title-section {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.title-section span {
+    font-size: 18px;
+    color: #777;
+    margin-left: 10px;
+}
+
+/* Action Buttons Section */
+.action-buttons-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.action-btn {
+    font-size: 16px;
+    color: #fff;
+    background-color: #003366;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.action-btn:hover {
+    background-color: #00509e;
+}
+
+/* Table Section */
+.class-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.class-table th,
+.class-table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #cccccc;
+}
+
+.class-table th {
+    background-color: #f0f8ff;
+    font-weight: bold;
+}
+
+.class-table td {
+    background-color: #ffffff;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    color: #333;
+    font-size: 14px;
+    background-color: #f0f8ff;
+}

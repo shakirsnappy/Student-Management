@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>High School Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <button class="back-button" onclick="goBack()">&#8592;</button>
+            <img src="school logo.jpg" alt="High School Logo" class="logo">
+            <h1>HIGH SCHOOL</h1>
+        </div>
+
+        <div class="form-container">
+            <img src="User logo.png" alt="User Icon" class="user-icon">
+            <h2>Login/Register</h2>
+            <form action="Admin.html" method="post">
+                <input type="email" name="email" placeholder="EMAIL" required>
+                <input type="password" name="password" placeholder="PASSWORD" required>
+                <div class="save-password">
+                    <input type="checkbox" id="save-password" name="save-password">
+                    <label for="save-password">Save password?</label>
+                </div>
+                <button type="submit" class="login-button">ENTER</button>
+            </form>
+        </div>
+        
+        <footer>
+            <p>&#169; COPYRIGHTS ALL RIGHTS RESERVED</p>
+        </footer>
+    </div>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>

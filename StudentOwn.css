@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(to bottom right, #c2e0ff, #7cb9e8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .dashboard {
+    width: 90%;
+    max-width: 900px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003366;
+    padding: 20px;
+    color: white;
+  }
+  
+  .logo-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .school-logo {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .student-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-logo {
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .logout {
+    background-color: #ffffff;
+    color: #003366;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .logout:hover {
+    background-color: #c2e0ff;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: space-around;
+    background-color: #003366;
+    padding: 10px;
+  }
+  
+  .actions button {
+    background-color: #1a75ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .actions button:hover {
+    background-color: #0055cc;
+  }
+  
+  .menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 20px;
+  }
+  
+  .menu-item {
+    background-color: #e6f2ff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid #c2e0ff;
+    transition: background-color 0.3s;
+  }
+  
+  .menu-item:hover {
+    background-color: #b3d9ff;
+  }
+  
+  .menu-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .menu-item span {
+    display: block;
+    font-weight: bold;
+    color: #003366;
+  }
+  
+  .go-back {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    background-color: #003366;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 0 0 8px 8px;
+  }
+  
+  .go-back:hover {
+    background-color: #002244;
+  }
+  

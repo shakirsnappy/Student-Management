@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f4fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+}
+
+.back-button {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #263c89;
+}
+
+.school-logo {
+    display: flex;
+    align-items: center;
+}
+
+.school-logo .logo {
+    width: 50px;
+    margin-right: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #263c89;
+}
+
+.admin-info {
+    display: flex;
+    align-items: center;
+}
+
+.admin-info .admin-icon {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.admin-info span {
+    font-size: 14px;
+    color: #263c89;
+    margin-right: 10px;
+}
+
+.logout-button {
+    background: none;
+    border: none;
+    font-size: 14px;
+    color: #263c89;
+    cursor: pointer;
+}
+
+.timetable-section {
+    margin-top: 20px;
+}
+
+.timetable-section h2 {
+    font-size: 22px;
+    color: #263c89;
+    margin-bottom: 10px;
+}
+
+.timetable-section h2 span {
+    font-size: 18px;
+    color: #4a75d9;
+}
+
+.timetable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.timetable th,
+.timetable td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.timetable th {
+    background-color: #4a75d9;
+    color: white;
+}
+
+.timetable td {
+    background-color: #f9fbff;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.export-button, .delete-button {
+    padding: 10px 20px;
+    background-color: #263c89;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 14px;
+    color: #888;
+}

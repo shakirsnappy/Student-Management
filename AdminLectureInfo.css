@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f4fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+}
+
+.back-button {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #263c89;
+}
+
+.school-logo {
+    display: flex;
+    align-items: center;
+}
+
+.school-logo .logo {
+    width: 50px;
+    margin-right: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #263c89;
+}
+
+.admin-info {
+    display: flex;
+    align-items: center;
+}
+
+.admin-info .admin-icon {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.admin-info span {
+    font-size: 14px;
+    color: #263c89;
+    margin-right: 10px;
+}
+
+.logout-button {
+    background: none;
+    border: none;
+    font-size: 14px;
+    color: #263c89;
+    cursor: pointer;
+}
+
+.lectures-section {
+    margin-top: 20px;
+}
+
+.lectures-section h2 {
+    font-size: 22px;
+    color: #263c89;
+    margin-bottom: 10px;
+}
+
+.lectures-section p {
+    font-size: 16px;
+    color: #4a75d9;
+    margin-bottom: 20px;
+}
+
+.lectures-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.lecture-card {
+    background-color: #4a75d9;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    width: 48%;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.lecture-card:not(:last-child) {
+    margin-right: 15px;
+}
+
+.lecture-card img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.actions-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+}
+
+.search-btn {
+    padding: 10px;
+    background-color: #263c89;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.export-button, .delete-button {
+    padding: 10px 20px;
+    background-color: #263c89;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 14px;
+    color: #888;
+}
+
+

@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #d6e9fb, #a8d1f9);
+  }
+  
+  .dashboard {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f5f8fc;
+  }
+  
+  .logo-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .school-logo {
+    width: 40px;
+    margin-right: 10px;
+  }
+  
+  .logo-section span {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #2a3e5c;
+  }
+  
+  .student-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-logo {
+    width: 40px;
+    margin-right: 10px;
+  }
+  
+  .student-info span {
+    font-weight: bold;
+    margin-right: 20px;
+    color: #2a3e5c;
+  }
+  
+  .logout {
+    text-decoration: none;
+    color: #fff;
+    background-color: #2a3e5c;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .content {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .content h2 {
+    font-size: 1.8em;
+    color: #2a3e5c;
+    margin-bottom: 10px;
+  }
+  
+  .content h2 span {
+    font-size: 0.8em;
+    color: #666;
+  }
+  
+  .actions {
+    margin-top: 20px;
+  }
+  
+  .actions button {
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #2a3e5c;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .payment-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  .payment-table th, .payment-table td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .payment-table th {
+    background-color: #f2f4f7;
+    color: #2a3e5c;
+  }
+  
+  .payment-table td {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .payment-table tr:nth-child(even) td {
+    background-color: #f9fbfc;
+  }
+  
+  .payment-table td:last-child {
+    font-weight: bold;
+    color: #28a745;
+  }
+  
+  .more {
+    margin-top: 20px;
+    color: #2a3e5c;
+    cursor: pointer;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    color: #2a3e5c;
+    font-size: 0.9em;
+  }
+  

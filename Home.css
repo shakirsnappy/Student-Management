@@ -1,0 +1,87 @@
+/* Reset default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to top right, #d0eaff, #f0faff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container styling */
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Header styling */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px; /* Space between the logo and the text */
+}
+
+.header h1 {
+    font-size: 24px;
+    color: #1a3d7c;
+    font-weight: bold;
+}
+
+/* Login section styling */
+.login-section {
+    background-color: white;
+    border-radius: 15px;
+    padding: 40px 20px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.icon img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.login-section h2 {
+    font-size: 18px;
+    color: #1a3d7c;
+    margin-bottom: 30px;
+}
+
+/* Button styling */
+.start-button {
+    background-color: #1a3d7c;
+    color: white;
+    font-size: 16px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.start-button:hover {
+    background-color: #162e5c;
+}
+
+/* Footer styling */
+footer {
+    font-size: 12px;
+    color: #666;
+    margin-top: 20px;
+}

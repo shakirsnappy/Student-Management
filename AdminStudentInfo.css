@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f4fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+}
+
+.back-button {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #263c89;
+}
+
+.school-logo {
+    display: flex;
+    align-items: center;
+}
+
+.school-logo .logo {
+    width: 50px;
+    margin-right: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #263c89;
+}
+
+.admin-info {
+    display: flex;
+    align-items: center;
+}
+
+.admin-info .admin-icon {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.admin-info span {
+    font-size: 14px;
+    color: #263c89;
+    margin-right: 10px;
+}
+
+.logout-button {
+    background: none;
+    border: none;
+    font-size: 14px;
+    color: #263c89;
+    cursor: pointer;
+}
+
+.student-section {
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 22px;
+    color: #263c89;
+    margin-bottom: 10px;
+}
+
+.student-count {
+    margin-bottom: 20px;
+}
+
+.student-count p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #263c89;
+}
+
+.student-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.student {
+    background-color: #6391dc;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.student img.student-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    border-radius: 50%;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 200px;
+}
+
+.export-button, .delete-button {
+    padding: 10px 20px;
+    background-color: #263c89;
+    color: white;
+    border: none;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture Materials</title>
+    <link rel="stylesheet" href="AdminLectureMaterials.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header">
+            <button class="back-button" onclick="goBack()">&#8592;</button>
+            <div class="school-logo">
+                <img src="school logo.jpg" alt="High School Logo" class="logo">
+                <h1>HIGH SCHOOL</h1>
+            </div>
+            <div class="admin-info">
+                <img src="User logo.png" alt="Admin Icon" class="admin-icon">
+                <span>ADMIN: Mohamed Shabry</span>
+                <button class="logout-button" onclick="logout()">LOGOUT &#10142;</button>
+            </div>
+        </div>
+
+        <!-- Lecture Materials Section -->
+        <div class="lecture-materials-section">
+            <h2>Lecture Materials</h2>
+
+            <div class="materials-grid">
+                <button class="material-btn">
+                    <img src="lecture materials.png" alt="Math Material" class="material-img">
+                    <span>Study Material [Mathematics]</span>
+                </button>
+                <button class="material-btn">
+                    <img src="lecture materials.png" alt="Literature Material" class="material-img">
+                    <span>Study Material [Literature]</span>
+                </button>
+                <button class="material-btn">
+                    <img src="lecture materials.png" alt="English Material" class="material-img">
+                    <span>Study Material [English]</span>
+                </button>
+                <button class="material-btn">
+                    <img src="lecture materials.png" alt="Science Material" class="material-img">
+                    <span>Study Material [Science]</span>
+                </button>
+                <button class="material-btn">
+                    <img src="lecture materials.png" alt="Spanish Material" class="material-img">
+                    <span>Study Material [Spanish]</span>
+                </button>
+                <button class="material-btn">
+                    <img src="lecture materials.png" alt="French Material" class="material-img">
+                    <span>Study Material [French]</span>
+                </button>
+                <button class="material-btn">
+                    <img src="lecture materials.png" alt="Commerce Material" class="material-img">
+                    <span>Study Material [Commerce]</span>
+                </button>
+                <button class="material-btn">
+                    <img src="lecture materials.png" alt="ICT Material" class="material-img">
+                    <span>Study Material [ICT]</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="actions-section">
+            <button class="upload-button">UPLOAD</button>
+            <button class="download-button">DOWNLOAD</button>
+        </div>
+
+        <footer>
+            <p>&#169; COPYRIGHTS ALL RIGHTS RESERVED</p>
+        </footer>
+    </div>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+
+        function logout() {
+            window.location.href = 'login.html';
+        }
+    </script>
+</body>
+</html>
